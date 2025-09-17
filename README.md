@@ -1,18 +1,10 @@
 ---
-description: Activité de cours le Mardi 13:30 à 17:00 / Laboratoire le Jeudi 13:30 à 17:00
+description: >-
+  Travaux pratiques le Lundi 13:30 à 16:30 / Activité de cours le Mercredi 09:00
+  à 12:30
 ---
 
 # Main
-
-{% hint style="danger" %}
-<mark style="color:$danger;">**QUIZ 1 - 23 SEPTEMBRE**</mark>
-
-<mark style="color:$danger;">**EXAM INTRA - 21 OCTOBRE**</mark>
-
-<mark style="color:$danger;">**QUIZ 2 - 18 NOVEMBRE**</mark>
-
-<mark style="color:$danger;">**EXAM FINAL - ?**</mark>
-{% endhint %}
 
 {% hint style="info" %}
 Légende
@@ -21,30 +13,34 @@ C = Cour
 
 L = Labo
 
+TP = Travaux pratique
+
 NP = Note Perso
 {% endhint %}
 
-{% content-ref url="prog/" %}
-[prog](prog/)
-{% endcontent-ref %}
+## <mark style="background-color:$primary;">Things from Hugo</mark>
+
+{% embed url="https://drive.google.com/drive/folders/1BZcyEObv29_bAZB9f1uaXaDAuCDuK7Dj" %}
+
+## <mark style="background-color:$primary;">Statique et dynamique</mark> <a href="#yui_3_18_1_1_1756904059671_39" id="yui_3_18_1_1_1756904059671_39"></a>
+
+### Calendrier
+
+{% embed url="https://ena.etsmtl.ca/pluginfile.php/2328902/mod_resource/content/18/calendrier%20ing150a25.pdf" %}
+
+### Présentation du cours
+
+{% embed url="https://cours.etsmtl.ca/seg/ahenault/ING150/Presentation/present.htm" %}
 
 ## <mark style="background-color:$primary;">Semaine 1</mark>
 
-{% content-ref url="prog/c1.md" %}
-[c1.md](prog/c1.md)
-{% endcontent-ref %}
-
-{% content-ref url="prog/l1.md" %}
-[l1.md](prog/l1.md)
-{% endcontent-ref %}
-
-{% content-ref url="prog/np1.md" %}
-[np1.md](prog/np1.md)
+{% content-ref url="main/c1.md" %}
+[c1.md](main/c1.md)
 {% endcontent-ref %}
 
 ## <mark style="background-color:$primary;">Semaine 2</mark>
 
-{% content-ref url="prog/c2.md" %}
-[c2.md](prog/c2.md)
+{% content-ref url="main/c2.md" %}
+[c2.md](main/c2.md)
 {% endcontent-ref %}
 
